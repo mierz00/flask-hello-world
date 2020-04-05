@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return 'Hello Devops2 !'
+    return 'Hello Devops2 production branch !'
 
 @app.route("/health")
 def health():
